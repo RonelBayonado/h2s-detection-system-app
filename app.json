@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "h2s-detection-system-app",
+    "name": "H2S Detection App (A COE and GE Collaborative Project Study)",
     "slug": "h2s-detection-system-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kristalays.h2sdetectionsystemapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d777837e-0e15-40f8-9897-2b48056ab1af"
+      }
     }
   }
 }
